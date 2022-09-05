@@ -54,7 +54,7 @@ class book {
             System.out.println("No Royality to author");
         }else if (Quantity == 500) {
             authorsRoyalty = (TotalP * 10) / 100;
-        } else if (Quantity > 500 && Quantity >= 1000) {
+        } else if (Quantity > 500 && Quantity <= 1000) {
             authorsRoyalty = (TotalP * 12.5) / 100;
         } else if (Quantity > 1000) {
             authorsRoyalty = (TotalP * 15) / 100;
